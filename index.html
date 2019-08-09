@@ -13,84 +13,360 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
 
-
     <!-- CREATE WEB ICON -->
     <link rel="icon" type="image" href="./[images]/">
     <title>Hayes Beer Distributing Co.</title>
+
+      
 </head>
+<style>
 
+        html {
+        scroll-behavior: smooth;
+        }
+        .slide-date{
+            color: rgb(0, 46, 78);
+            filter: brightness(280%);
+            font-weight: 900;
+        }
+    
+        /* .slide-title{
+            font-size: 80%;
+        } */
+    
+        .slide-text{
+            font-weight: 450;
+        }
+    
+        .slider{
+            margin-top: 0%;
+            /* margin-bottom: 15px; */
+        }
+    
+        #carosel{
+            /* background-color: rgba(8, 38, 59); */
+            margin-left: 0%;
+        }
+        
+        #myVideo {
+            position: static;
+            right: 0;
+            bottom: 0;
+            min-width: 100%; 
+            min-height: 100%;
+        }
+
+    .company{
+        background-color: #D2E5F6;
+        margin-top: 100px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    h3{
+        text-decoration: underline;
+    }
+    
+        /* * {box-sizing: border-box;} */
+    
+        /* body { 
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        } */
+/*     
+        #navbar {
+        overflow: hidden;
+        background-color: #f1f1f186;
+        padding: 90px 10px;
+        transition: 0.4s;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 99;
+        }
+    
+        #navbar a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px; 
+        line-height: 25px;
+        border-radius: 4px;
+        }
+    
+        #navbar #logo {
+        font-size: 35px;
+        font-weight: bold;
+        transition: 0.4s;
+        }
+    
+        #navbar a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+    
+        #navbar a.active {
+        background-color: dodgerblue;
+        color: white;
+        }
+    
+        #navbar-right {
+        float: right;
+        }
+    
+        @media screen and (max-width: 580px) {
+        #navbar {
+            padding: 20px 10px !important;
+        }
+        #navbar a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+        #navbar-right {
+            float: none;
+        }
+        } */
+    .p{
+
+    }
+    .reasons{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .footer-basic-centered{
+	background-color: rgb(15, 27, 42);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+
+	padding: 45px;
+	margin-top: 80px;
+}
+h2{
+    color: rgb(15, 27, 42);
+}
+h3{
+    color: rgb(0, 46, 78);
+    filter: brightness(280%);
+}
+
+.footer-basic-centered .footer-company-motto{
+    color: rgb(0, 46, 78);
+    filter: brightness(280%);
+	font-size: 24px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #9c9ea1;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+	list-style: none;
+	font-weight: bold;
+	color:  #D2E5F6;
+	padding: 35px 0 23px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+
+	.footer-basic-centered .footer-company-motto{
+		font-size: 18px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-basic-centered .footer-links{
+		font-size: 14px;
+		padding: 25px 0 20px;
+	}
+
+	.footer-basic-centered .footer-links a{
+		line-height: 1.8;
+	}
+}
+                
+    </style>
 <body>
-<br><br><br><br><br><br>
-
 <!-- 
-    <h1>
-        <span class="title">Hayes</span>
-        <span class="title">Beer</span>
-    </h1>
-    <br><br><br><br><br><br> -->
-
-    <div class="slider">
-        <div class="slider-wrapper flex">
-            <div class="slide flex">
-                <!-- NOTICE HOW SOME DIV CLASSES SAY PREV AND OTHERS NEXT FOR DIRECTIONAL PURPOSES -->
-                <div class="slide-image slider-link next"><img src="https://media.giphy.com/media/W3BHZ9LI4oBqwDQ3Gs/source.gif"><div class="overlay"></div></div>
-                <div class="slide-content">
-                    <div class="slide-date">Since 1956</div>
-                    <div class="slide-title">Hayes Beer Distributing Co.</div>
-                    <div class="slide-text">It remains our objective to set ourselves apart from our 
-                            competition by providing impeccable customer service 
-                            and retail relationships. We take great pride in the way 
-                            that we conduct our business. Offering the largest variety 
-                            of high quality beers, we are proud to be the beer 
-                            distributing leader in the south suburbs of Chicago. </div>
-                    <div class="slide-more">READ MORE</div>
-                </div>	
+        <div id="navbar">
+            <a href="#default" id="logo">CompanyLogo</a>
+            <div id="navbar-right">
+                <a class="active" href="#home">Home</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
             </div>
+            </div> -->
+              
+              <!-- <div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
+                <p><b>This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.</b></p>
+                <p>Scroll down this frame to see the effect!</p>
+                <p>Scroll to the top to remove the effect.</p>
+                <p><b>Note:</b> We have also made the navbar responsive, resize the browser window to see the effect.</p>
+                <p>Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div> -->
+    
+<!-- <br><br><br><br><br><br> -->
+<div id="home"></div>
 
-            <div class="slide flex">
-                <div class="slide-image slider-link next"><img src="https://media.giphy.com/media/Uu5kifVmr0V2fMmTyw/source.gif"><div class="overlay"></div></div>
-                <div class="slide-content">
-                    <div class="slide-date">Brands</div>
-                    <div class="slide-title">Blue Moon is one of our many splendid craft beer options. They go above and beyond to create this unfiltered wheat ale spiced in the Belgian tradition for an uncommonly smooth taste.</div>
-                    <div class="slide-text"> Click below to see our full list of brands. </div>
-                    <div class="slide-more">READ MORE</div>
-                </div>	
-            </div>
+<video autoplay muted loop id="myVideo">
+    <source src="https://media.giphy.com/media/17lmGSt5tqRVqWMj8K/giphy.mp4" type="video/mp4">
+      <!-- <source src="https://media.giphy.com/media/17lmGSt5tqRVqWMj8K/giphy.mp4" type="video/mp4"> -->
+</video>
 
-            <div class="slide flex">
-                <div class="slide-image slider-link next"><img src="https://media.giphy.com/media/7J4t1ZBG9rGxeRgs1w/source.gif"><div class="overlay"></div></div>
-                <div class="slide-content">
-                    <div class="slide-date">30.10.2017.</div>
-                    <div class="slide-title">LOREM IPSUM DOLOR SITE MATE, AD EST ABHORREANT</div>
-                    <div class="slide-text">Lorem ipsum dolor sit amet, ad est abhorreant efficiantur, vero oporteat apeirian in vel. Et appareat electram appellantur est. Ei nec duis invenire. Cu mel ipsum laoreet, per rebum omittam ex. </div>
-                    <div class="slide-more">READ MORE</div>
-                </div>	
-            </div>
+<div class="slider">
 
-            <div class="slide flex">
-                <div class="slide-image slider-link next"><img src="https://media.giphy.com/media/5k21g93ltwuMgtmjsK/source.gif"><div class="overlay"></div></div>
-                <div class="slide-content">
-                    <div class="slide-date">30.09.2017.</div>
-                    <div class="slide-title">LOREM IPSUM DOLOR SITE MATE, AD EST ABHORREANT</div>
-                    <div class="slide-text">Lorem ipsum dolor sit amet, ad est abhorreant efficiantur, vero oporteat apeirian in vel. Et appareat electram appellantur est. Ei nec duis invenire. Cu mel ipsum laoreet, per rebum omittam ex. </div>
-                    <div class="slide-more">READ MORE</div>
-                </div>	
-            </div>
-
+    <div class="slider-wrapper flex" id="carosel">
+        <div class="slide flex">
+            <!-- NOTICE HOW SOME DIV CLASSES SAY PREV AND OTHERS NEXT FOR DIRECTIONAL PURPOSES -->
+            <div class="slide-image slider-link next"><img src="./[images]/coors-neon.gif"><div class="overlay"></div></div>
+            <div class="slide-content">
+                <div class="slide-date">Hayes Beer Distributing Co.</div>
+                <div class="slide-title">Since 1956</div>
+                <div class="slide-text">It remains our objective to set ourselves apart from our 
+                        competition by providing impeccable customer service 
+                        and retail relationships. We take great pride in the way 
+                        that we conduct our business. Offering the largest variety 
+                        of high quality beers, we are proud to be the beer 
+                        distributing leader in the south suburbs of Chicago. </div>
+                <div class="slide-more">READ MORE</div>
+            </div>	
         </div>
 
-        <!-- MAKE ROUTE FOR ID TAG  -->
-        <div class="arrows">
-            <a href="#" title="Previous" class="arrow slider-link prev"></a>
-            <a href="#" title="Next" class="arrow slider-link next"></a>
+        <div class="slide flex">
+                <div class="slide-image slider-link next"><img src="https://media.giphy.com/media/Uu5kifVmr0V2fMmTyw/source.gif"><div class="overlay"></div></div>
+                <div class="slide-content">
+                    <div class="slide-date">Hayes Beer Distributing Co.</div>
+                    <div class="slide-title">Molson Coors Brewing Company</div>
+                    <div class="slide-text"> Blue Moon is one of our many splendid craft beer options. They go above and beyond to create this unfiltered wheat ale spiced in the Belgian tradition for an uncommonly smooth taste. </div>
+                    <div class="slide-more"> VIEW PARTNERS </div>
+                </div>	
+            </div>
+
+        <div class="slide flex">
+            <div class="slide-image slider-link next"><img src="https://media.giphy.com/media/7J4t1ZBG9rGxeRgs1w/source.gif"><div class="overlay"></div></div>
+            <div class="slide-content">
+                <div class="slide-date">Hayes Beer Distributing Co.</div>
+                <div class="slide-title">Where it all began</div>
+                <div class="slide-text">The company sold the Meister Brau brand for the first several years until 1970, when the Miller Brewing Company bought the Meister Brau trademark to begin producing Miller Lite. The Miller Brewing Company unveiled its lower-calorie Lite beer, and in the ensuing years it has surged to the top of the Chicago beer market. Both owners remain active in the day-to-day operation. </div>
+                <div class="slide-more">VIEW HISTORY</div>
+            </div>	
+        </div>
+
+        <div class="slide flex">
+            <div class="slide-image slider-link next"><img src="https://media.giphy.com/media/5k21g93ltwuMgtmjsK/source.gif"><div class="overlay"></div></div>
+            <div class="slide-content">
+                <div class="slide-date">Hayes Beer Distributing Co.</div>
+                <div class="slide-title">Constellation Brands</div>
+                <div class="slide-text"> Due to the commitment and dedication of our team, Hayes Beer Distributing is the leading Corona-Modelo import company throughout the United States. Constellation takes pride in brewing every bottle as a model of what good beer should be, rich tasting, full-flavored Pilsner-style Lagers that deliver a crisp, refreshing taste.</div>
+                <div class="slide-more">VIEW PARTNERS</div>
+            </div>	
         </div>
 
     </div>
+
+    <!-- MAKE ROUTE FOR ID TAG  -->
+    <div class="arrows">
+        <a href="#" title="Previous" class="arrow slider-link prev"></a>
+        <a href="#" title="Next" class="arrow slider-link next"></a>
+    </div>
+
+    </div>
+
+    <div class="company">
+        <h2> Why choose Hayes Beer Distributing Company? </h2>
+        
+        <div class="reasons">
+            
+            <div class="history">
+                <h3> HISTORY </h3>
+                <p> Hayes Beer Distributing is a multiple location company with distribution centers in Alsip and Rockford, Illinois. The company was founded by Jim and Jack Hayes in 1956. 
+                The company sold the Meister Brau brand for the first several years until 1970, when the Miller Brewing Company bought the Meister Brau trademark to begin producing Miller Lite. The Miller Brewing Company unveiled its lower-calorie Lite beer, and in the ensuing years it has surged to the top of the Chicago beer market. Both owners remain active in the day-to-day operation. </p>
+            </h3>
+
+            <div class="dedication">
+                <h3> DEDICATION </h3>
+                <p> Hayes Beer Distributing Company of Alsip is an 180,000 square foot state-of-the-art facility located at 12160 S. Central Ave. in Alsip, Illinois. We currently employ approximately 150 people at this location. 
+                    Hayes Beer Distributing Company of Rockford, acquired in 2006, is located at 1819 Elmwood Rd., Rockford, Illinois. Approximately 46 people are employed at this location. </p>
+            </div>
+
+            <div class="perseverance">
+                <h3> PERSERVERANCE </h3>
+                <p> In 1986, we moved from our location in Oak Lawn, into our current facility in Alsip. In 1991 we built an additional 50,000 square feet to handle to sales growth in our market. In 1998, we purchased another beer distributor and added yet another addition to our building. In 2005, we added approximately 45 more brands to our portfolio. And, in 2006, we acquired another distributorship in Rockford, IL. Hayes Beer Distributing Company remains the largest beer distributor in the state of Illinois and one of the largest Miller Brewing Company distributors in the country. </p>
+
+            </div>
+
+            <div class="relationships">
+                <h3> RELATIONSHIPS </h3>
+                <p> We strive to provide superior and reliable service to our retail customers. It remains our goal to earn our customers' business and assist them in achieving their goals. 
+                    We currently provide service to more than 2,000 retail accounts between the two locations. We proudly represent the entire portfolio of the Miller Brewing Company, as well as Heineken, Corona, Coors, Samuel Adam's and Mike's Hard Lemonade to name a few. </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="footer-basic-centered">
+        <p class="footer-company-motto"> "OUR DEDICATION TO FIT YOUR EXPECTAIONS" </p>
+
+            <p class="footer-links">
+                <a href="#home">Home</a>
+                ·
+                <a href="#">Partners</a>
+                ·
+                <a href="#">History</a>
+                ·
+                <a href="#">Apply</a>
+                ·
+                <a href="#">Contact</a>
+            </p>
+
+        <p class="footer-company-name">Hayes Beer Distributing Company &copy; Copyright 2019</p>
+
+    </footer>
 
     <!-- INFO FOR FOOTER / WHATEVER ELSE -->
     <!-- 12160 S. Central Avenue, Alsip, Illinois 60803
     Phone: 708-389-8200        Fax: 708-389-0457
     Copyright © 2019 Hayes Beer Distributing Company -->
+
+    <!-- <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").style.padding = "30px 10px";
+            document.getElementById("logo").style.fontSize = "25px";
+            } else {
+            document.getElementById("navbar").style.padding = "80px 10px";
+            document.getElementById("logo").style.fontSize = "35px";
+            }
+        }
+    </script> -->
 
     
 <script src="./javascript/header.js"></script>
