@@ -39,6 +39,10 @@ body {
     margin-left: 10px;
     height: 70px;
 }
+#footLogo{
+    height: 150px;
+    width: 180px;
+}
 
 .homeNav{
     color: whitesmoke;
@@ -64,9 +68,15 @@ body {
     filter: brightness(280%);
     text-decoration: underline;
 }
+.footlogoDiv{
+    margin-right: 30px;
+}
 .footer{
+    display: flex;
+    flex-direction: column;
     margin: 100px 0px 50px 0px;
-    text-align: center;
+    justify-content: center;
+    /* text-align: center; */
 }
 .footer-company-motto{
     color: rgb(0, 46, 78);
