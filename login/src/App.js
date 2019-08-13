@@ -10,12 +10,12 @@ class App extends React.Component{
   }
   signIn = () =>{
     console.log(this.state.email,this.state.password);
-    //write your JS code here to make a request to your server so you can save the email and password
+    //write my JS code here to make a request to my server so you can save the email and password
     //query
   }
   createAccount = ()=>{
     console.log(this.state.email,this.state.password);
-    //write your JS code here to make a request to your server so you can create an account
+    //write my JS code here to make a request to my server so you can create an account
   }
   render(){
     let {email,password} = this.state;

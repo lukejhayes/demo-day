@@ -51,7 +51,7 @@
     btn.on('click', nextSlide);
     setInterval(()=>{
       nextSlide("custom","next");
-    },5000)
+    },15000)
   });
 })(jQuery);
 
