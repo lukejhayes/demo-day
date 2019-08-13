@@ -20,10 +20,12 @@
     
     var clickCount  = 0;
     
-    btn.on('click', function(e) {
-      e.preventDefault();
+    var nextSlide = function(e,dir) {
+      if(e!=="custom"){
+        e.preventDefault();
+      }
 
-      if( $(this).hasClass('next') ) {
+      if( $(this).hasClass('next') || dir === "next") {
         
         ( clickCount < ( sCount - 1 ) ) ? clickCount++ : clickCount = 0;
       } else if ( $(this).hasClass('prev') ) {
@@ -44,9 +46,14 @@
       TweenLite.fromTo(slide_text, 0.8, fromProperties, toProperties);
       TweenLite.fromTo(slide_more, 1, fromProperties, toProperties);
 
-    });
-          
+    }
+
+    btn.on('click', nextSlide);
+    setInterval(()=>{
+      nextSlide("custom","next");
+    },15000)
   });
 })(jQuery);
 
 $('.overlay').addClass('overlay-blue');
+

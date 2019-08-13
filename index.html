@@ -17,6 +17,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800i&display=swap" rel="stylesheet">
 
+    <link rel="icon" type="image" href="./[images]/hb-logo.png"/>
+
     <title>Hayes Beer Distributing Co.</title>
 
 </head>
@@ -41,6 +43,11 @@ scroll-behavior: smooth;
     letter-spacing: .2px;
 }
 #contact{
+    color: white;
+    font-weight: bolder;
+    letter-spacing: .2px;
+}
+#partners{
     color: white;
     font-weight: bolder;
     letter-spacing: .2px;
@@ -90,31 +97,36 @@ p{
 } */
 
 </style>
+
 <body>
+
 <div id="navbar" >
 
         <div class="logo">
-        <img id="navLogo" src="./[images]/hblogowhite.png" alt="logo"></img>
+        <img id="navLogo" src="./[images]/hb-logo.png" alt="logo"></img>
         </div>
 
         <div className="homeMenu">
             <span id = "about" className="homeNav"> ABOUT </span>
             <span id = "careers" className="homeNav"> CAREERS </span>
-            <span id = "contact" className="homeNav"> CONTACT </span>
+            <!-- <span id = "contact" className="homeNav"> CONTACT </span> -->
+            <a href="contact.html"> Contact </a>
+            <span id = "partners" className="homeNav"> PARTNERS </span>
         </div>
 
         <div className="loginDiv">
-            <span id = "login" className="homeAuth">LOGIN  </span>
+            <span id = "login" className="homeAuth">  LOGIN <a href="./login/build/index.html"> </a></span>
+            <!-- <a href="./login/build/index.html"> -->
         </div>
 
-        </div>
+    </div>
+
 <div class="vidWrap" id="home">
     <video autoplay muted loop id="myVideo">
             <source src="https://media.giphy.com/media/17lmGSt5tqRVqWMj8K/giphy.mp4" type="video/mp4">
                 <!-- <source src="https://media.giphy.com/media/17lmGSt5tqRVqWMj8K/giphy.mp4" type="video/mp4"> -->
         </video>
 </div>
-
 
 <div class="carouselWrap">
     <div class="slider">
@@ -137,7 +149,7 @@ p{
             </div>
 
             <div class="slide flex">
-                    <div class="slide-image slider-link next"><img src="./[images]/corona-3d.gif"><div class="overlay"></div></div>
+                    <div class="slide-image slider-link next"> <img src="./[images]/corona-3d.gif"> <div class="overlay"></div></div>
                     <div class="slide-content">
                         <div class="slide-date">Hayes Beer Distributing Co.</div>
                         <div class="slide-title">Constellation Brands</div>
@@ -225,7 +237,6 @@ p{
             </div>
         </div>
 
-        <!-- <br> -->
 <div class="container">
 <div class="relationships">
         <img src="[images]/claw-img.jpeg" id="display" height="60%"; style="width:100%;">
@@ -241,65 +252,47 @@ p{
 
 
     <footer class="footer">
-            <div class="footlogoDiv">
-                    <img id="footLogo" src="./[images]/hblogowhite.png" alt="logo"></img>
-                    </div>
 
-            <div class="footer-text">
-                    <p class="footer-company-motto"> "OUR DEDICATION TO FIT YOUR EXPECTAIONS" </p>
+        <div class="footlogoDiv">
+                <img id="footLogo" src="./[images]/hb-logo.png" alt="logo"></img>
+                </div>
+
+        <div class="footer-text">
+                <p class="footer-company-motto"> "OUR DEDICATION TO FIT YOUR EXPECTAIONS" </p>
+
+                <p class="footer-links">
+                    <a class="footer-links" href="#home">Home</a>
+                    ·
+                    <a class="footer-links" href="#history">History</a>
+                    ·
+                    <a class="footer-links" href="#">Partners</a>
+                    ·
+                    <a class="footer-links" href="#">Apply</a>
+                    ·
+                    <a href="contact.html"><button> Contact </button></a>
+                    <!-- <a class="footer-links" href="#">Contact</a> -->
+                </p>
     
-                    <p class="footer-links">
-                        <a class="footer-links" href="#home">Home</a>
-                        ·
-                        <a class="footer-links" href="#history">History</a>
-                        ·
-                        <a class="footer-links" href="#">Partners</a>
-                        ·
-                        <a class="footer-links" href="#">Apply</a>
-                        ·
-                        <a class="footer-links" href="#">Contact</a>
-                    </p>
-        
-                <p class="footer-company-name">Hayes Beer Distributing Company &copy; Copyright 2019</p>
-        
-            </div>
-            <div>
-                
-            </div>
-           
-        </footer>
-
-
-<!-- <div class="company">
-        <h2 class="infoTitle"> Why choose Hayes Beer Distributing Company? </h2>
-        
-        <div class="reasons">
-                    
-
-
-            <div class="dedication">
-                <h3 class="infoHead"> DEDICATION </h3>
-                <p> Hayes Beer Distributing Company of Alsip is an 180,000 square foot state-of-the-art facility located at 12160 S. Central Ave. in Alsip, Illinois. We currently employ approximately 150 people at this location. 
-                    Hayes Beer Distributing Company of Rockford, acquired in 2006, is located at 1819 Elmwood Rd., Rockford, Illinois. Approximately 46 people are employed at this location. </p>
-            </div>
-
-            <div class="perseverance">
-                <h3 class="infoHead"> PERSERVERANCE </h3>
-                <p> In 1986, we moved from our location in Oak Lawn, into our current facility in Alsip. In 1991 we built an additional 50,000 square feet to handle to sales growth in our market. In 1998, we purchased another beer distributor and added yet another addition to our building. In 2005, we added approximately 45 more brands to our portfolio. And, in 2006, we acquired another distributorship in Rockford, IL. Hayes Beer Distributing Company remains the largest beer distributor in the state of Illinois and one of the largest Miller Brewing Company distributors in the country. </p>
-
-            </div>
-
-            <div class="relationships">
-                <h3 class="infoHead"> RELATIONSHIPS </h3>
-                <p> We strive to provide superior and reliable service to our retail customers. It remains our goal to earn our customers' business and assist them in achieving their goals. 
-                    We currently provide service to more than 2,000 retail accounts between the two locations. We proudly represent the entire portfolio of the Miller Brewing Company, as well as Heineken, Corona, Coors, Samuel Adam's and Mike's Hard Lemonade to name a few. </p>
-            </div>
-
+            <p class="footer-company-name">Hayes Beer Distributing Company &copy; Copyright 2019</p>
+    
         </div>
+           
+    </footer>
 
-            </div>
-</div> -->
-
+    <script>
+            // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("navbar").style.padding = "20px 10px";
+                document.getElementById("logo").style.fontSize = "10px";
+                } else {
+                document.getElementById("navbar").style.padding = "10px 10px";
+                document.getElementById("logo").style.fontSize = "15px";
+                }
+            }
+        </script>
 
 <script src="./javascript/animate.js"></script>
 
