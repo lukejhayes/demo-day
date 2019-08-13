@@ -23,7 +23,7 @@ body {
 #navbar {
     height: 75px;
     /* overflow: hidden; */
-    background-color: #f1f1f186;
+    background-color: rgba(0, 46, 78, 0.63);
     /* padding: 90px 10px; */
     transition: 0.4s;
     position: fixed;
@@ -39,10 +39,7 @@ body {
     margin-left: 10px;
     height: 70px;
 }
-#footLogo{
-    height: 150px;
-    width: 180px;
-}
+
 
 .homeNav{
     color: whitesmoke;
@@ -77,6 +74,10 @@ body {
     margin: 100px 0px 50px 0px;
     justify-content: center;
     /* text-align: center; */
+}
+#footLogo{
+    height: 150px;
+    width: 180px;
 }
 .footer-company-motto{
     color: rgb(0, 46, 78);
