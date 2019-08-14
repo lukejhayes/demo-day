@@ -1,0 +1,103 @@
+.contactContainer{
+    /* height: 100%; */
+    background-color: #002e4e;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px auto auto 1fr 50px auto;
+    grid-template-areas:
+    "nav nav nav nav"
+    "grt grt grt grt"
+    "card card info info"
+    "card card info info "
+    "mid mid mid mid"
+    "bot bot bot bot";
+}
+.greetDiv{
+    grid-area: grt;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background: ghostwhite;
+    padding: 20px 0px 20px 0px;
+}
+.infoDiv{
+    margin-top: 50px;
+    grid-area: info;
+}
+.imgDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#infoImg{
+    height: 90%;
+    width: 90%;
+}
+.cardWrap{
+    grid-area: card;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.cardTitle{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.cardText{
+    text-align: center;
+    margin: 20px;
+}
+.partners{
+    background: rgb(255, 255, 255);
+    grid-area: bot;
+    margin-bottom: 50px;
+}
+.partner-div{
+    display: flex;
+    justify-content: center;
+}
+.partner-last{
+    margin-bottom: 30px;
+}
+.partner-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: #002e4e solid 1px;
+    margin: 20px 50px 20px 50px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+.partnerTitle{
+    text-align: center;
+    color: #002e4e;
+    font-family: 'Montserrat', sans-serif;
+}
+#partnerImg{
+
+    /* border: #002e4e solid 2px; */
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+.box{
+    margin-top: 10px;
+    background: none;
+    border: solid 2px whitesmoke;
+    height: 20px;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contactfooter{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    background: rgb(15, 27, 42);
+}
