@@ -1,0 +1,26 @@
+{
+  "name": "demo-day",
+  "version": "1.0.0",
+  "description": "Final Project for Northwestern Coding Bootcamp showcasing everything I've learned this summer.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukejhayes/demo-day.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukejhayes/demo-day/issues"
+  },
+  "homepage": "https://github.com/lukejhayes/demo-day#readme"
+}
