@@ -1,3 +1,17 @@
+body{
+    /* background-color: #F9EEEE;
+    background-color:  #00e5ff;
+    background-image:
+    radial-gradient(
+    gray,
+    black
+  ); */
+  background: rgb(15, 27, 42);
+}
+.hein{
+    width: 100%;
+    height: auto;
+}
 #navbar {
     height: 75px;
     /* overflow: hidden; */
@@ -28,18 +42,27 @@
     color: whitesmoke;
     margin-right: 10px;
 }
-p{
-    /* text-align: center; */
-}
-.headerContainer{
-    margin-top: 10%;
-    margin-bottom: 5%;
-    background-color: aliceblue;
-    width: 70%;
-    margin-left: 15%;
-    align-content: center;
-}
 
+/* Container holding the image and the text */
+.headerContainer {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 500px;
+    right: 20px;
+    background-color: rgba(0, 46, 78, 0.63);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .opacity{
+      float: right;
+      margin-top: 20%;
+      margin-left: 30%;
+  }
 .header{
     text-align: center;
 }
@@ -54,4 +77,8 @@ p{
 .footer {
     margin: 50px 0px 50px 0px;
     text-align: center;
+}
+#footLogo{
+    height: 10%;
+    width: 10%;
 }
