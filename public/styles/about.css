@@ -1,0 +1,94 @@
+body{
+    /* background-color: #F9EEEE;
+    background-color:  #00e5ff;
+    background-image:
+    radial-gradient(
+    gray,
+    black
+  ); */
+  background: rgb(15, 27, 42);
+}
+
+#navbar {
+    height: 75px;
+    /* overflow: hidden; */
+    background-color: rgba(0, 46, 78, 0.63);
+    /* padding: 90px 10px; */
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navLogo{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 80px;
+}
+
+.homeNav{
+    color: whitesmoke;
+    /* margin: 0px 10px 10px 10px; */
+    padding: 5px;
+}
+
+#login{
+    color: whitesmoke;
+    margin-right: 10px;
+}
+.millercoors{
+    margin-left: 18%;
+    height: 60%;
+    width: 60%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.aboutContainer{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-color: aliceblue;
+    width: 70%;
+    margin-left: 15%;
+    /* background-color: aliceblue; */
+}
+.aboutText{
+    font-family: 'Montserrat', sans-serif; 
+    /* text-align: center; */
+    margin-top: 0%;
+    background-color: aliceblue;
+    /* border: 5px solid; */
+    /* border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    border-left-color: black; */
+    width: 70%;
+    margin-left: 15%;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    color: black;
+}
+.aboutFooter{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    background-color: rgba(0, 46, 78, 0.63);
+}
+.footer {
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+#footLogo{
+    height: 10%;
+    width: 10%;
+}
