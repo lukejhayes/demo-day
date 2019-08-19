@@ -27,40 +27,52 @@ html {
 scroll-behavior: smooth;
 }
 
-#careers {
-    font-size: 18px;
-    background-color: rgb(197, 164, 55);
-    color: white;
-    font-weight: bolder;
-    letter-spacing: .2px;
-}
 #about{
-    font-size: 18px;
-    background-color: rgb(197, 164, 55);
-    color: white;
-    font-weight: bolder;
-    letter-spacing: .2px;
+    /* font-size: 18px; */
+    background-color: rgba(197, 164, 55, 0.808);
 }
-#business{
-    color: white;
-    font-weight: bolder;
-    letter-spacing: .2px;
-}
-#contact{
-    font-size: 18px;
-    background-color: rgb(197, 164, 55);
-    color: white;
-    font-weight: bolder;
-    letter-spacing: .2px;
-}
-#partners{
-    font-size: 18px;
-    background-color: rgb(197, 164, 55);
+#aboutText{
+    font-size: 14px;
     color: white;
     font-weight: bolder;
     letter-spacing: .2px;
 }
 
+#careers {
+    background-color: rgba(197, 164, 55, 0.808);
+}
+#careersText{
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: .2px;
+}
+
+#contact{
+    background-color: rgba(197, 164, 55, 0.808);
+}
+#contactText{
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: .2px;
+}
+
+#partners{
+    background-color: rgba(197, 164, 55, 0.808);
+}
+#partnersText{
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: .2px;
+}
+
+#business{
+    color: white;
+    font-weight: bolder;
+    letter-spacing: .2px;
+}
 .container {
   position: relative;
   font-family: Arial;
@@ -109,6 +121,7 @@ p{
     height: 80px;
 }
 
+
 </style>
 
 <body>
@@ -122,13 +135,13 @@ p{
         <div className="homeMenu">
             <!-- <span id = "about" className="homeNav"> ABOUT </span> -->
 
-            <button id="about" class="btn btn-info btn-lg"><a href="about.html" target="_blank"> ABOUT </a></button>
+            <button id="about" class="btn btn-info btn-lg"><a href="about.html" target="_blank"> <p id="aboutText"> ABOUT </p> </a></button>
 
-            <button id="careers" class="btn btn-info btn-lg"><a href="careers.html" target="_blank"> CAREERS </a></button>
+            <button id="careers" class="btn btn-info btn-lg"><a href="careers.html" target="_blank"> <p id="careersText"> CAREERS </p> </a></button>
 
-            <button id="contact" class="btn btn-info btn-lg"><a href="contact.html" target="_blank"> CONTACT </a></button>
+            <button id="contact" class="btn btn-info btn-lg"><a href="contact.html" target="_blank"> <p id="contactText"> CONTACT </p> </a></button>
 
-            <button id="contact" class="btn btn-info btn-lg"><a href="partners.html" target="_blank"> PARTNERS </a></button>
+            <button id="contact" class="btn btn-info btn-lg"><a href="partners.html" target="_blank"> <p id="partnersText"> PARTNERS </p> </a></button>
             
         </div>
 
