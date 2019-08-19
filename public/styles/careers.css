@@ -51,8 +51,8 @@ body{
   /* Bottom right text */
   .text-block {
     position: absolute;
-    bottom: 500px;
-    right: 20px;
+    bottom: 270px;
+    right: 100px;
     background-color: rgba(0, 46, 78, 0.63);
     color: white;
     padding-left: 20px;
@@ -62,6 +62,7 @@ body{
       float: right;
       margin-top: 20%;
       margin-left: 30%;
+      /* margin-bottom: 20%; */
   }
 .header{
     text-align: center;

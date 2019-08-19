@@ -28,11 +28,15 @@ scroll-behavior: smooth;
 }
 
 #careers {
+    font-size: 18px;
+    background-color: rgb(197, 164, 55);
     color: white;
     font-weight: bolder;
     letter-spacing: .2px;
 }
 #about{
+    font-size: 18px;
+    background-color: rgb(197, 164, 55);
     color: white;
     font-weight: bolder;
     letter-spacing: .2px;
@@ -43,11 +47,15 @@ scroll-behavior: smooth;
     letter-spacing: .2px;
 }
 #contact{
+    font-size: 18px;
+    background-color: rgb(197, 164, 55);
     color: white;
     font-weight: bolder;
     letter-spacing: .2px;
 }
 #partners{
+    font-size: 18px;
+    background-color: rgb(197, 164, 55);
     color: white;
     font-weight: bolder;
     letter-spacing: .2px;
@@ -113,17 +121,21 @@ p{
 
         <div className="homeMenu">
             <!-- <span id = "about" className="homeNav"> ABOUT </span> -->
-            <a href="about.html" target="_blank"> ABOUT </a>
-            <!-- <span id = "careers" className="homeNav"> CAREERS </span> -->
-            <a href="careers.html" target="_blank"> CAREERS </a>
-            <!-- <span id = "contact" className="homeNav"> CONTACT </span> -->
-            <a href="contact.html" target="_blank"> CONTACT </a>
-            <!-- <span id = "partners" className="homeNav"> PARTNERS </span> -->
-            <a href="partners.html" target="_blank"> PARTNERS </a>
+
+            <button id="about" class="btn btn-info btn-lg"><a href="about.html" target="_blank"> ABOUT </a></button>
+
+            <button id="careers" class="btn btn-info btn-lg"><a href="careers.html" target="_blank"> CAREERS </a></button>
+
+            <button id="contact" class="btn btn-info btn-lg"><a href="contact.html" target="_blank"> CONTACT </a></button>
+
+            <button id="contact" class="btn btn-info btn-lg"><a href="partners.html" target="_blank"> PARTNERS </a></button>
+            
         </div>
 
         <div className="loginDiv">
             <span id = "login" className="homeAuth">  LOGIN <a href="./login/build/index.html"> </a></span>
+            <!-- <button id="login" class="btn btn-info btn-lg"><a href="partners.html" target="_blank"> PARTNERS </a></button> -->
+
             <!-- <a href="./login/build/index.html"> -->
         </div>
 
@@ -152,7 +164,7 @@ p{
                             that we conduct our business. Offering the largest variety 
                             of high quality beers, we are proud to be the beer 
                             distributing leader in the south suburbs of Chicago. </div>
-                    <div class="slide-more">READ MORE</div>
+                    <a class="slide-more" href="about.html">READ MORE</a>
                 </div>	
             </div>
 
@@ -162,7 +174,7 @@ p{
                         <div class="slide-date">Hayes Beer Distributing Co.</div>
                         <div class="slide-title">Constellation Brands</div>
                         <div class="slide-text"> Due to the commitment and dedication of our team, Hayes Beer Distributing is the leading Corona-Modelo import company throughout the United States. Constellation takes pride in brewing every bottle as a model of what good beer should be, rich tasting, full-flavored Pilsner-style Lagers that deliver a crisp, refreshing taste.</div>
-                        <div class="slide-more">VIEW PARTNERS</div>
+                        <a class="slide-more" href="partners.html" target="_blank">VIEW PARTNERS</a>
                     </div>	
                 </div>
     
@@ -172,6 +184,8 @@ p{
                         <div class="slide-date">Hayes Beer Distributing Co.</div>
                         <div class="slide-title">Miller Coors Brewing Company</div>
                         <div class="slide-text"> The Miller Coors Brewing Company is a multinational brewing company, formed in 2005 by the merger of Molson of Canada, and Coors of the United States. It is the world's seventh largest brewer by volume. Blue Moon is one of our many splendid craft beer options. They go above and beyond to create this unfiltered wheat ale spiced in the Belgian tradition for an uncommonly smooth taste. </div>
+                        <!-- <a class="slide-more" href="partners.html" target="_blank">VIEW PARTNERS</a>
+                        <br> -->
                         <!-- <div class="slide-more"> VIEW PARTNERS </div> -->
                     </div>	
                 </div>
@@ -184,7 +198,8 @@ p{
                         <div class="slide-text"> One of North America's most diversified and successful private beverage companies focused on the alcohol beverage sector. White Claw® Hard Seltzer is made using a blend of seltzer water, our gluten free alcohol base, 
                                 and a hint of fruit flavor. With 100 calories, 2g carbs, and 5% alc/vol, White Claw comes in 5 fruit flavors. 
                                 Discover the refreshing taste of White Claw® Hard Seltzer today. </div>
-                        <div class="slide-more"> VIEW PARTNERS </div>
+                        <a class="slide-more" href="partners.html" target="_blank">VIEW PARTNERS</a>
+                                <!-- <div class="slide-more"> VIEW PARTNERS </div> -->
                     </div>	
                 </div>
 
@@ -194,7 +209,7 @@ p{
                             <div class="slide-date">Hayes Beer Distributing Co.</div>
                             <div class="slide-title">Where it all began</div>
                             <div class="slide-text">The company sold the Meister Brau brand for the first several years until 1970, when the Miller Brewing Company bought the Meister Brau trademark to begin producing Miller Lite. The Miller Brewing Company unveiled its lower-calorie Lite beer, and in the ensuing years it has surged to the top of the Chicago beer market. Both owners remain active in the day-to-day operation. </div>
-                            <div class="slide-more">VIEW HISTORY</div>
+                        <a class="slide-more" href="about.html" target="_blank">VIEW HISTORY</a>
                         </div>	
                     </div>
     
@@ -271,14 +286,14 @@ p{
                 <p class="footer-links">
                         <a class="footer-links" href="#home">Home</a>
                         ·
-                        <a class="footer-links" href="about.html">History</a>
+                        <a class="footer-links" href="about.html" target="_blank">History</a>
                         ·
-                        <a class="footer-links" href="partners.html">Partners</a>
+                        <a class="footer-links" href="partners.html" target="_blank">Partners</a>
                         ·
-                        <a class="footer-links" href="careers.html">Apply</a>
+                        <a class="footer-links" href="careers.html" target="_blank">Apply</a>
                         ·
                         <!-- <a href="contact.html"><button> Contact </button></a> -->
-                        <a class="footer-links" href="contact.html">Contact</a>
+                        <a class="footer-links" href="contact.html" target="_blank">Contact</a>
                     </p>
     
             <p class="footer-company-name">Hayes Beer Distributing Company &copy; Copyright 2019</p>
