@@ -126,3 +126,10 @@ a:active {
     padding: 50px 0px 50px 0px;
     background: rgb(15, 27, 42);
 }
+#greetVid{
+    border: 10px 10px 10px 10px solid white;
+    filter: drop-shadow(10px 10px 10px black);
+}
+h1{
+    filter: drop-shadow(10px 10px 10px black);
+}

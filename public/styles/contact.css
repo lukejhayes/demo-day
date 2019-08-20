@@ -1,3 +1,6 @@
+h1{
+    filter: drop-shadow(10px 10px 10px black);
+}
 #navbar {
     height: 75px;
     /* overflow: hidden; */

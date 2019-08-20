@@ -1,3 +1,6 @@
+h1{
+    filter: drop-shadow(10px 10px 10px black);
+}
 .contactContainer{
     /* height: 100%; */
     background-color: #002e4e;
@@ -32,6 +35,7 @@
 #infoImg{
     height: 90%;
     width: 90%;
+    filter: drop-shadow(10px 10px 10px black);
 }
 .cardWrap{
     grid-area: card;
@@ -84,6 +88,7 @@
     height: 150px;
     width: 150px;
     margin: 20px;
+    filter: drop-shadow(10px 10px 10px black);
 }
 .box{
     margin-top: 10px;
