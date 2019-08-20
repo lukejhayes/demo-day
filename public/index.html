@@ -8,6 +8,7 @@
     <!-- CSS LINKS -->
     <link rel="stylesheet" type="text/css" href="/styles/style.css">
     <link rel="stylesheet" type="text/css" href="/styles/animate.css">
+
     <!-- <link rel="stylesheet" type="text/css" href="./styles/main.css"> -->
     
     <!-- JQUERY LINKS -->
@@ -27,55 +28,10 @@ html {
 scroll-behavior: smooth;
 }
 
-#about{
-    /* font-size: 18px; */
-    background-color: rgba(197, 164, 55, 0.808);
-}
-#aboutText{
-    font-size: 14px;
-    color: white;
-    font-weight: bolder;
-    letter-spacing: .2px;
-}
 
-#careers {
-    background-color: rgba(197, 164, 55, 0.808);
-}
-#careersText{
-    font-size: 14px;
-    color: white;
-    font-weight: bolder;
-    letter-spacing: .2px;
-}
-
-#contact{
-    background-color: rgba(197, 164, 55, 0.808);
-}
-#contactText{
-    font-size: 14px;
-    color: white;
-    font-weight: bolder;
-    letter-spacing: .2px;
-}
-
-#partners{
-    background-color: rgba(197, 164, 55, 0.808);
-}
-#partnersText{
-    font-size: 14px;
-    color: white;
-    font-weight: bolder;
-    letter-spacing: .2px;
-}
-
-#business{
-    color: white;
-    font-weight: bolder;
-    letter-spacing: .2px;
-}
 .container {
   position: relative;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
 }
 .footer {
     margin: 50px 0px 50px 0px;
@@ -115,16 +71,101 @@ p{
 /* img{
     filter: drop-shadow(12px 12px 5px black);
 } */
+#navbar {
+    height: 75px;
+    /* overflow: hidden; */
+    background-color: rgba(0, 46, 78, 0.63);
+    /* padding: 90px 10px; */
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #navLogo{
     margin-top: 10px;
     margin-left: 10px;
     height: 80px;
 }
 
+.homeNav{
+    color: whitesmoke;
+    /* margin: 0px 10px 10px 10px; */
+    padding: 5px;
+}
+
+#login{
+    color: rgb(179,149,50);
+    margin-right: 10px;
+    font-weight: 900;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+a:link {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(179,149,50);
+  background-color: transparent; 
+  text-decoration: none;
+  font-weight: 900;
+}
+
+a:visited {
+    color: rgb(179,149,50);
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+a:active {
+    color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: 900;
+}
 
 </style>
 
 <body>
+
+
+
+        <!-- <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="#">WebSiteName</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Page 1-1</a></li>
+                        <li><a href="#">Page 1-2</a></li>
+                        <li><a href="#">Page 1-3</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Page 2</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul>
+                </div>
+              </nav> -->
+
+
 
 <div id="navbar" >
 
@@ -133,16 +174,11 @@ p{
         </div>
 
         <div className="homeMenu">
-            <!-- <span id = "about" className="homeNav"> ABOUT </span> -->
-
-            <button id="about" class="btn btn-info btn-lg"><a href="about.html" target="_blank"> <p id="aboutText"> ABOUT </p> </a></button>
-
-            <button id="partners" class="btn btn-info btn-lg"><a href="partners.html" target="_blank"> <p id="partnersText"> PARTNERS </p> </a></button>
-
-            <button id="careers" class="btn btn-info btn-lg"><a href="careers.html" target="_blank"> <p id="careersText"> CAREERS </p> </a></button>
-
-            <button id="contact" class="btn btn-info btn-lg"><a href="contact.html" target="_blank"> <p id="contactText"> CONTACT </p> </a></button>
-            
+            <a class="homeNav" href="#home"> HOME </a>
+            <span id = "about" class="homeNav"> <a href="about.html" target="_blank"> HISTORY </a> </span>
+            <span id = "partners" class="homeNav"> <a href="partners.html" target="_blank"> PARTNERS </a> </span>
+            <span id = "careers" class="homeNav"> <a href="careers2.html" target="_blank"> CAREERS </a> </span>
+            <span id = "contact" class="homeNav"> <a href="contact.html" target="_blank"> CONTACT </a> </span>
         </div>
 
         <div className="loginDiv">
@@ -177,7 +213,7 @@ p{
                             that we conduct our business. Offering the largest variety 
                             of high quality beers, we are proud to be the beer 
                             distributing leader in the south suburbs of Chicago. </div>
-                    <a class="slide-more" href="about.html">READ MORE</a>
+                    <a class="slide-more" href="about.html" target="_blank">READ MORE</a>
                 </div>	
             </div>
 
