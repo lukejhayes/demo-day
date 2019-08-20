@@ -1,0 +1,65 @@
+.careersContainer{
+    background-color:  #002e4e;
+    /* background-color: ghostwhite; */
+    display: flex;
+    flex-direction: column;
+}
+
+.greetDiv{
+    background-color:  rgba(245, 245, 245, 0.308);
+    margin-top: 75px;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+.imgDiv{
+    padding: 20px 50px;
+    /* border-right: solid 4px #bf9d41; */
+    border-right: solid 2px ghostwhite;
+}
+/* #greetImg{
+    border: solid 2px rgb(173, 173, 173);
+    width: 200px;
+    height: 250px;
+} */
+
+.greetText{
+    display: grid;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 50px;
+    text-align: justify; 
+}
+.positions{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px
+}
+.positionsDiv{
+    background: ghostwhite;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 50px;
+}
+.positionsTitle{
+    text-align: center;
+}
+.positionItem{
+    margin-top: 10px;
+    color: #0a8acb;
+}
+.positionItem:hover{
+    cursor: pointer;
+    filter: brightness(150%);
+}
+.itemDiv{
+    display: flex;
+    flex-direction: column;
+}
+.careersfooter{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    background: rgb(15, 27, 42);
+}

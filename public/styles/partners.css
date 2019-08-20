@@ -55,7 +55,7 @@
 .partners{
     background: aliceblue;
     grid-area: bot;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 .partner-div{
     display: flex;
