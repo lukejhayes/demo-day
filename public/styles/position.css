@@ -1,0 +1,40 @@
+.posgreetDiv{
+    background-color:  rgba(245, 245, 245, 0.308);
+    margin-top: 75px;
+    display: flex;
+    padding: 50px;
+    padding-left: 15%;
+    align-items: center;
+}
+.posgreetText{
+    display: grid;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify; 
+}
+.positionsDiv{
+    padding: 50px;
+    padding-left: 15%;
+}
+.modal-content{
+    font-family: 'Montserrat', sans-serif;
+}
+#applyBtn{
+    background: none;
+    border: solid 1px whitesmoke;
+    padding: 10px;
+    color: aqua;
+}
+#applyBtn:hover{
+    background: rgb(1, 212, 212);
+    color: rgb(0, 0, 117);
+}
+#submitApp{
+    background: rgb(186, 223, 255);
+    border-radius: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    font-weight: bolder;
+    margin-left: 4px;
+}
