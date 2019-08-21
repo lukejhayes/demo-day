@@ -3,6 +3,20 @@ import Card from '@material-ui/core/Card';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 
+// const mysql = require('mysql');
+// const connection = mysql.createConnection({
+//   host: 'localhost',
+//   user:'root',
+//   password:'rootroot',
+//   database:'react-sql-db'
+//   });
+
+//   connection.connect(function(err){
+//     (err)? console.log(err+'+++++++++++++++//////////'): console.log('connection********');
+//     });
+    
+//     require('../public/')(app, connection);
+
 class App extends React.Component{
   state = {
     email: "",
