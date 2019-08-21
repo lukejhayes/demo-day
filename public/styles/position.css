@@ -38,3 +38,21 @@
     font-weight: bolder;
     margin-left: 4px;
 }
+h4{
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: underline;
+}
+li{
+    line-height: 30px;
+}
+ol{
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
+    font-size: 18px;
+}
+h3{
+    filter: drop-shadow(10px 10px 10px black);
+}
