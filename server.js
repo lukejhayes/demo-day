@@ -10,8 +10,6 @@ var PORT = process.env.PORT || 8080;
 app.use(express.static('public'));
 app.use(express.static('public/login/build'));
 
-
-
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
@@ -20,7 +18,7 @@ require(path.join(__dirname, './routes/htmlroutes'))(app);
 
 // Start listening on PORT
 app.listen(PORT, function() {
-  console.log('--------------------------------------------');
+  console.log('---------------------------------------');
   console.log('HAYES BEER is listening on PORT: ' + PORT);
-  console.log('--------------------------------------------');
+  console.log('----------------------------------------');
 });
