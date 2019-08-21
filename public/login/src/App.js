@@ -35,10 +35,11 @@ class App extends React.Component{
     let {email,password} = this.state;
     return(
       <div>
+        <h1> HAYES BEER DISTRIBUTING COMPANY </h1>
         <div style={{width:"40%",height:400,marginTop:100,marginLeft:"30%",textAlign:'center'}}>
           <div style={{border:"3px solid gold"}}>
           <Card>
-            <h2>Sign In</h2>
+            <h2>Hayes Beer Employees Only</h2>
             <TextField
               label="Email"
               value={email}
@@ -56,10 +57,14 @@ class App extends React.Component{
               margin="normal"
               variant="outlined"
             />
-            <br />
+            <br/>
             <br/>
             <Button variant="contained" color="primary" onClick={this.signIn}>
               Sign In
+            </Button>
+
+            <Button variant="contained" color="primary" onClick={this.signIn}>
+              Sign Up
             </Button>
             <div style={{height:80}}/>
           </Card>
