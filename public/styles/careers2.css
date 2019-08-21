@@ -121,6 +121,7 @@ a:active {
 .itemDiv{
     display: flex;
     flex-direction: column;
+    background-color: transparent;
 }
 .careersfooter{
     color: whitesmoke;
