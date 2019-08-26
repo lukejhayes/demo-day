@@ -1,68 +1,43 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: url("/miller-contact-logo.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800i&display=swap" rel="stylesheet');
 
 body, html {
   height: 100%;
-      background-color: #F9EEEE;
-    background-color:  #00e5ff;
-    background-image:
-    radial-gradient(
+      /* background-color: #F9EEEE;
+    background-color:  #00e5ff; */
+    background-image: url("/ML-early-cans.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* radial-gradient(
     gray,
     black
-  );
+  ); */
+}
+
+.field{
+  background-color: rgba(240, 248, 255, 0.616);
+  filter: drop-shadow(10px 10px 10px black)
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.border-login{
-  border: 10px 10px 10px 10px solid red;
-}
 
-.bg { 
-  /* The image used */
-  /* background-image: url("/lite-cans.jpg"); */
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-h1{
-  text-align: center;
-  color: aliceblue;
-  font-weight: 900;
-  font-size: 60px;
-  padding-top: 30px;
-  font-family: monospace;
-  filter: drop-shadow(10px 10px 4px #F6EFA6);
-}
 h2{
   text-align: center;
-  color: rgb(64, 81, 171);
+  margin-top: 0%;
+  padding-top: 20px;
+  color: rgba(62, 80, 168);
   font-weight: 900;
   font-size: 30px;
-  font-family: monospace;
+  font-family: 'Montserrat', sans-serif;
+  filter: brightness("600%");
   /* text-decoration: underline; */
 }
-
+/* .contained{
+  
+} */
 /* .bg{
   background-image: url("/miller-contact-logo.jpg");
   height: 100%;

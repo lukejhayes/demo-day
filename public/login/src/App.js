@@ -3,6 +3,7 @@ import Card from '@material-ui/core/Card';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 
+
 // const mysql = require('mysql');
 // const connection = mysql.createConnection({
 //   host: 'localhost',
@@ -16,7 +17,13 @@ import TextField from '@material-ui/core/TextField';
 //     });
     
 //     require('../public/')(app, connection);
+// import Background from '../public/miller-lite-login.jpg';
 
+// var sectionStyle = {
+//   width: "100%",
+//   height: "400px",
+//   backgroundImage: "url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiSgt2cyaHkAhWnuVkKHQhhAUIQjRx6BAgBEAQ&url=https%3A%2F%2Ffineartamerica.com%2Ffeatured%2Fmiller-lite-barn-door-dan-sproul.html%3Fproduct%3Diphone-case-cover%26phoneCaseType%3Diphone10&psig=AOvVaw0LqZ9abj-rYAESyYrsruIN&ust=1566944483133277" + { Background } + ")"
+// };
 class App extends React.Component{
   state = {
     email: "",
@@ -31,15 +38,17 @@ class App extends React.Component{
     console.log(this.state.email,this.state.password);
     //write my JS code here to make a request to my server so you can create an account
   }
+  
   render(){
     let {email,password} = this.state;
     return(
       <div>
-        <h1> HAYES BEER DISTRIBUTING COMPANY </h1>
-        <div style={{width:"40%",height:400,marginTop:100,marginLeft:"30%",textAlign:'center'}}>
-          <div style={{border:"3px solid gold"}}>
-          <Card>
-            <h2>Hayes Beer Employees Only</h2>
+        {/* <h1> HAYES BEER DISTRIBUTING COMPANY </h1> */}
+        <div style={{width:"40%",height:400,marginLeft:"30%",textAlign:'center'}}>
+          <div>
+          <Card class="field">
+            <h2>* Hayes Beer Employees Only *</h2>
+            
             <TextField
               label="Email"
               value={email}
@@ -62,7 +71,7 @@ class App extends React.Component{
             <Button variant="contained" color="primary" onClick={this.signIn}>
               Sign In
             </Button>
-
+            &nbsp;&nbsp;&nbsp;
             <Button variant="contained" color="primary" onClick={this.signIn}>
               Sign Up
             </Button>
@@ -70,6 +79,7 @@ class App extends React.Component{
           </Card>
       
         </div>
+        
         </div>
       </div>
     )
