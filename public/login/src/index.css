@@ -28,13 +28,26 @@ h2{
   text-align: center;
   margin-top: 0%;
   padding-top: 20px;
-  color: rgba(62, 80, 168);
+  color: rgb(24, 54, 202);
   font-weight: 900;
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
-  filter: brightness("600%");
+  filter: drop-shadow(10px 10px 10px black);
   /* text-decoration: underline; */
 }
+h3{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: solid;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+Button{
+  filter: drop-shadow(10px 10px 10px black);
+}
+
 /* .contained{
   
 } */
