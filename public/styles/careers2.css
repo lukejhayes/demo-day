@@ -186,3 +186,60 @@ a:active {
       font-weight: bolder;
       text-decoration: underline;
   }
+
+  @media (max-width: 450px) {
+    #navbar{
+        width: 375px;
+        position: fixed;
+    }
+    .homeMenu{
+        font-size: 9.5px;
+        margin-right: 40px;
+    }
+    h1{
+        font-size: 14px;
+    }
+    h2{
+        font-weight: bolder;
+        font-size: 14px;
+    }
+    h3{
+      font-size: 12px;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    h4{
+        font-size: 10px;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    .imgDiv{
+        display: none;
+    }
+    .greetDiv{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .careerInfo{
+        display: none;
+    }
+    .careersfooter{
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+    .footer-company-motto{
+        font-size: 14px;
+    }
+    .footlogoDiv{
+        align-content: center;
+        margin-left: 30px;
+    }
+    .footer-company-name{
+        font-size: 10px;
+        margin-bottom: 0%;
+    }
+    .footer-links{
+        font-size: 16px;
+    }
+
+}

@@ -169,3 +169,67 @@ a:active {
   text-decoration: underline;
   font-weight: 900;
 }
+
+@media (max-width: 450px) {
+    #navbar{
+        width: 375px;
+        position: fixed;
+    }
+    .homeMenu{
+        font-size: 9.5px;
+        margin-right: 40px;
+    }
+    .loginDiv{
+        display: none;
+    }
+    #navLogo{
+        display: none;
+    }
+    h1{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 11px;
+        /* margin-top: 0%; */
+        margin-bottom: 0%;
+    }
+    h3{
+        font-size: 11px;
+
+    }
+    h4{
+        margin-top: 0%;
+        margin-bottom: 0%;
+        font-size: 8px;
+        text-align: center;
+    }
+    #partnerImg{
+        height: 30px;
+        width: 30px;
+    }
+    .partner-item{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border: #002e4e solid 1px;
+        margin: 0px 10px 5px 10px;
+        font-family: 'Montserrat', sans-serif;
+        padding: 5px;
+    }
+    .partners{
+        background: aliceblue;
+        grid-area: bot;
+        padding-bottom: 5px;
+    }
+    span{
+        font-size: 8px;
+    }
+    .box{
+        margin-top: 4px;
+        background: none;
+        border: solid 2px whitesmoke;
+        height: 6.5px;
+        color: whitesmoke;
+        font-family: 'Montserrat', sans-serif;
+    }
+}

@@ -56,3 +56,8 @@ span{
 h3{
     filter: drop-shadow(10px 10px 10px black);
 }
+@media (max-width: 450px) {
+    h1{
+        font-size: 14px;
+    }
+}
