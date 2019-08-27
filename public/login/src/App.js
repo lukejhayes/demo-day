@@ -62,6 +62,7 @@ class App extends React.Component{
         <div style={{width:"40%",height:400,marginLeft:"30%",textAlign:'center'}}>
           <div>
             <Card class="field">
+              <h3>DIRECTIONS</h3>
               <h3> 
                 Sign in above using your email address and 
                 password that are associated with Hayes Beer.
