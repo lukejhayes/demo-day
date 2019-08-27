@@ -36,6 +36,7 @@ h2{
   /* text-decoration: underline; */
 }
 h4{
+  padding-top: 10px;
   font-family: 'Montserrat', sans-serif;
   text-decoration: underline;
   font-size: 30px;
@@ -44,7 +45,7 @@ h4{
   text-align: center;
 }
 h3{
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
   text-decoration: solid;
