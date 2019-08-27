@@ -98,11 +98,6 @@ h1{
     /* text-align: center; */
     margin-top: 0%;
     background-color: aliceblue;
-    /* border: 5px solid; */
-    /* border-top-color: black;
-    border-right-color: black;
-    border-bottom-color: black;
-    border-left-color: black; */
     width: 70%;
     margin-left: 15%;
     font-weight: 700;
@@ -125,4 +120,55 @@ h1{
 #footLogo{
     height: 10%;
     width: 10%;
+}
+
+@media (max-width: 450px) {
+    #navbar{
+        width: 375px;
+        position: fixed;
+    }
+    .homeMenu{
+        font-size: 9.5px;
+        margin-right: 40px;
+    }
+    .footer-company-motto{
+        font-size: 14px;
+    }
+    .footlogoDiv{
+        align-content: center;
+        margin-left: 30px;
+    }
+    .footer-company-name{
+        font-size: 10px;
+        margin-bottom: 0%;
+    }
+    .footer-links{
+        font-size: 16px;
+    }
+    footer{
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+    h1{
+        font-size: 15px;
+    }
+    .aboutText{
+        font-family: 'Montserrat', sans-serif; 
+        /* text-align: center; */
+        margin-top: 0%;
+        background-color: aliceblue;
+        width: 80%;
+        /* margin-left: 15%; */
+        font-weight: 700;
+        font-size: 8px;
+        /* letter-spacing: 1.5px; */
+        /* line-height: 25px; */
+        color: black;
+    }
+    .loginDiv{
+        display: none;
+    }
+    #navLogo{
+        display: none;
+    }
 }

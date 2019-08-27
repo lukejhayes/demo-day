@@ -125,3 +125,72 @@ a:active {
     color: #9c9ea1;
     font-size: 14px;
 }
+
+@media (max-width: 450px) {
+    #navbar{
+        width: 375px;
+        position: fixed;
+    }
+    .homeMenu{
+        font-size: 9.5px;
+        margin-right: 40px;
+    }
+    @media (max-width: 450px) {
+    #navbar{
+        width: 375px;
+        position: fixed;
+    }
+    .homeMenu{
+        font-size: 9.5px;
+        margin-right: 40px;
+    }
+    .footer-company-motto{
+        font-size: 14px;
+    }
+    .footlogoDiv{
+        align-content: center;
+        margin-left: 30px;
+    }
+    .footer-company-name{
+        font-size: 10px;
+        margin-bottom: 0%;
+    }
+    .footer-links{
+        font-size: 16px;
+    }
+    footer{
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+    .loginDiv{
+        display: none;
+    }
+    #navLogo{
+        display: none;
+    }
+}
+    .footer-company-motto{
+        font-size: 14px;
+    }
+    .footlogoDiv{
+        align-content: center;
+        margin-left: 30px;
+    }
+    .footer-company-name{
+        font-size: 10px;
+        margin-bottom: 0%;
+    }
+    .footer-links{
+        font-size: 16px;
+    }
+    footer{
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+    .loginDiv{
+        display: none;
+    }
+    #navLogo{
+        display: none;
+    }
+}
