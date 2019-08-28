@@ -135,6 +135,12 @@ a:active {
         font-size: 9.5px;
         margin-right: 40px;
     }
+    .loginDiv{
+        display: none;
+    }
+    #navLogo{
+        display: none;
+    }
     .footer-company-motto{
         font-size: 14px;
     }
@@ -149,14 +155,8 @@ a:active {
     .footer-links{
         font-size: 16px;
     }
-    footer{
+    /* footer{
         margin-bottom: 0%;
         padding-bottom: 0%;
-    }
-    .loginDiv{
-        display: none;
-    }
-    #navLogo{
-        display: none;
-    }
+    } */
 }
