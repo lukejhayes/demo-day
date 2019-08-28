@@ -93,7 +93,7 @@ h1{
     margin-top: 0%;
     background-color: aliceblue;
     width: 70%;
-    margin-left: 15%;
+    margin-left: 10%;
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 1.5px;
@@ -154,7 +154,7 @@ h1{
     }
     .aboutText{
         font-family: 'Montserrat', sans-serif; 
-        /* text-align: center; */
+        text-align: center;
         margin-top: 0%;
         background-color: aliceblue;
         width: 80%;
@@ -162,7 +162,10 @@ h1{
         font-weight: 700;
         font-size: 8px;
         /* letter-spacing: 1.5px; */
-        /* line-height: 25px; */
+        line-height: 10px;
         color: black;
+    }
+    .aboutContainer{
+        margin-top: 30%;
     }
 }
