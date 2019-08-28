@@ -87,9 +87,55 @@ h3{
     margin-right: 10px;
     font-weight: 900;
 }
+p{
+    font-weight: 900;
+}
+
+a:link {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(179,149,50);
+  background-color: transparent; 
+  text-decoration: none;
+  font-weight: 900;
+}
+
+a:visited {
+    color: rgb(179,149,50);
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+a:active {
+    color: rgb(179,149,50);
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: 900;
+}
 
 @media (max-width: 450px) {
     h1{
         font-size: 14px;
+    }
+    #navbar{
+        width: 375px;
+        position: fixed;
+    }
+    .homeMenu{
+        font-size: 9.5px;
+        margin-right: 40px;
+    }
+    .loginDiv{
+        display: none;
+    }
+    #navLogo{
+        display: none;
     }
 }
