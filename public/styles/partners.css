@@ -16,11 +16,13 @@ h1{
     "bot bot bot bot";
 }
 .greetDiv{
+    margin-top: 0%;
     grid-area: grt;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     background: ghostwhite;
     padding: 20px 0px 20px 0px;
+    padding-top: 10px;
 }
 .infoDiv{
     margin-top: 50px;
@@ -83,7 +85,6 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 #partnerImg{
-
     /* border: #002e4e solid 2px; */
     height: 150px;
     width: 150px;
@@ -107,7 +108,7 @@ h1{
     background: rgb(15, 27, 42);
 }
 #navbar {
-    height: 75px;
+    height: 80px;
     /* overflow: hidden; */
     background: rgba(15, 27, 42, 0.842);
     /* background-color: rgba(0, 46, 78, 0.63); */
@@ -188,6 +189,7 @@ a:active {
     }
     h1{
         font-size: 14px;
+        font-weight: 900px;
     }
     h2{
         font-size: 11px;
