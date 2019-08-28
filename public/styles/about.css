@@ -1,11 +1,11 @@
 body{
-  background: rgb(15, 27, 42);
+    background-color: #002e4e;
 }
 
 #navbar {
     height: 75px;
     /* overflow: hidden; */
-    background-color: rgba(0, 46, 78, 0.63);
+    background: rgba(15, 27, 42, 0.842);
     /* padding: 90px 10px; */
     transition: 0.4s;
     position: fixed;
@@ -99,12 +99,12 @@ h1{
     line-height: 25px;
     color: black;
 }
-.aboutFooter{
+.contactfooter{
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 50px 0px 50px 0px;
-    background-color: rgba(0, 46, 78, 0.63);
+    background: rgb(15, 27, 42);
 }
 .footer {
     margin: 50px 0px 50px 0px;

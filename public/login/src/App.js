@@ -25,7 +25,7 @@ class App extends React.Component{
         <div style={{width:"40%",height:400,marginLeft:"30%",textAlign:'center'}}>
           <div>
           <Card class="field">
-            <h2>* Hayes Beer Employees Only *</h2>
+            <h2> Hayes Beer Distributing Co. </h2>
               <TextField
                 label="Email"
                 value={email}
@@ -62,7 +62,9 @@ class App extends React.Component{
         <div style={{width:"40%",height:400,marginLeft:"30%",textAlign:'center'}}>
           <div>
             <Card class="field">
-              <h4>DIRECTIONS</h4>
+              <h4>
+                *** EMPLOYEE ACCESS ONLY ***
+              </h4>
               <h3> 
                 Sign in above using your email address and 
                 password that are associated with Hayes Beer.

@@ -1,7 +1,7 @@
 #navbar {
     height: 75px;
     /* overflow: hidden; */
-    background-color: rgba(0, 46, 78, 0.63);
+    background: rgba(15, 27, 42, 0.842);
     /* padding: 90px 10px; */
     transition: 0.4s;
     position: fixed;
