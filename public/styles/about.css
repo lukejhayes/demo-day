@@ -1,5 +1,6 @@
 body{
     background-color: #002e4e;
+    margin: 0%;
 }
 
 #navbar {
@@ -107,7 +108,7 @@ h1{
     background: rgb(15, 27, 42);
 }
 .footer {
-    margin: 50px 0px 50px 0px;
+    /* margin: 50px 0px 50px 0px; */
     text-align: center;
 }
 #footLogo{
