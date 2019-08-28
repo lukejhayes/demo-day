@@ -180,7 +180,7 @@ a:active {
 
 <body>
 
-<div id="navbar" >
+    <div id="navbar" >
 
         <div class="logo">
         <img id="navLogo" src="./images/hb-logo.png" alt="logo"></img>
@@ -195,11 +195,7 @@ a:active {
         </div>
 
         <div class="loginDiv">
-            <!-- <span id = "login" className="homeAuth">  LOGIN <a href="./login/build/index.html"> </a></span> -->
             <span id = "contact" class="homeNav"> <a href="login/build/index.html" target="_blank"> LOGIN </a> </span>
-            <!-- <button id="login" class="btn btn-info btn-lg"><a href="partners.html" target="_blank"> PARTNERS </a></button> -->
-
-            <!-- <a href="./login/build/index.html"> -->
         </div>
 
     </div>
@@ -363,19 +359,19 @@ a:active {
     </footer>
 
     <script>
-            // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-            window.onscroll = function() {scrollFunction()};
-            
-            function scrollFunction() {
-                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                document.getElementById("navbar").style.padding = "20px 10px";
-                document.getElementById("logo").style.fontSize = "10px";
-                } else {
-                document.getElementById("navbar").style.padding = "10px 10px";
-                document.getElementById("logo").style.fontSize = "15px";
-                }
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").style.padding = "20px 10px";
+            document.getElementById("logo").style.fontSize = "10px";
+            } else {
+            document.getElementById("navbar").style.padding = "10px 10px";
+            document.getElementById("logo").style.fontSize = "15px";
             }
-        </script>
+        }
+    </script>
 
 <script src="./javascript/animate.js"></script>
 

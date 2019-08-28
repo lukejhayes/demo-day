@@ -95,26 +95,23 @@
         </div>
 
     <div class="careersContainer">
-        <div id="navbar" >
-
-            <div class="logo">
-            <img id="navLogo" src="./images/hb-logo.png" alt="logo"></img>
-            </div>
-    
-            <div className="homeMenu">
-                <span id = "home" class="homeNav"> <a href="index.html"> HOME </a> </span>
-                <span id = "about" class="homeNav"> <a href="about.html"> HISTORY </a> </span>
-                <span id = "partners" class="homeNav"> <a href="partners.html"> PARTNERS </a> </span>
-                <span id = "careers" class="homeNav"> <a href="careers2.html"> CAREERS </a> </span>
-                <span id = "contact" class="homeNav"> <a href="contact.html"> CONTACT </a> </span>
-
-            </div>
-    
-            <div class="loginDiv">
-                <span id = "login" class="homeAuth"> <a href="login/build/index.html" target="_blank"> LOGIN </a> </span>
-            </div>
-    
-            </div>
+            <div id="navbar" >
+                    <div class="logo">
+                    <img id="navLogo" src="./images/hb-logo.png" alt="logo"></img>
+                    </div>
+            
+                    <div class="homeMenu">
+                        <a class="homeNav" href="#home"> HOME </a>
+                        <span id = "about" class="homeNav"> <a href="about.html" > HISTORY </a> </span>
+                        <span id = "partners" class="homeNav"> <a href="partners.html" > PARTNERS </a> </span>
+                        <span id = "careers" class="homeNav"> <a href="careers2.html" > CAREERS </a> </span>
+                        <span id = "contact" class="homeNav"> <a href="contact.html" > CONTACT </a> </span>
+                    </div>
+            
+                    <div class="loginDiv">
+                        <span id = "contact" class="homeNav"> <a href="login/build/index.html" target="_blank"> LOGIN </a> </span>
+                    </div>
+                </div>
            
             <div class="posgreetDiv">
                 <div class="posgreetText">
@@ -186,6 +183,22 @@
                 </footer>
 
     </div>
+
+    <script>
+            // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("navbar").style.padding = "20px 10px";
+                document.getElementById("logo").style.fontSize = "10px";
+                } else {
+                document.getElementById("navbar").style.padding = "10px 10px";
+                document.getElementById("logo").style.fontSize = "15px";
+                }
+            }
+        </script>
+        
                 <script src="javascript/position.js"></script>
     
 </body>
