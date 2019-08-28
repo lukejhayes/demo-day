@@ -112,8 +112,8 @@ h1{
     text-align: center;
 }
 #footLogo{
-    height: 10%;
-    width: 10%;
+    height: 150px;
+    width: 180px;
 }
 
 @media (max-width: 450px) {
