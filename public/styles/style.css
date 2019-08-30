@@ -160,3 +160,21 @@ a:active {
         padding-bottom: 0%;
     } */
 }
+/* @media (max-width: 768px){
+    #navbar{
+        width: 768px;
+        position: fixed;
+    }
+    .homeMenu{
+
+    }
+    .loginDiv{
+        display: none;
+    }
+    #navLogo{
+        margin-right: 100px;
+    }
+    a{
+        font-size: 70%;
+    }
+} */

@@ -94,7 +94,7 @@ a:active {
     align-items: center;
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
-    padding: 20px 50px;
+    padding: 0px 20px;
     text-align: justify; 
 }
 .positions{
@@ -257,3 +257,26 @@ a:active {
     }
 
 }
+
+/* @media (max-width: 768px){
+    #navbar{
+        width: 768px;
+        position: fixed;
+    }
+    h1{
+        font-size: 35px;
+        font-weight: 900px;
+    }    
+    .homeMenu{
+        font-size: 22px;
+        margin-right: 160px;
+    }
+    .loginDiv{
+        display: none;
+    }
+    .careerInfo{
+        font-size: 70%;
+        line-height: 150%;
+    }
+
+} */

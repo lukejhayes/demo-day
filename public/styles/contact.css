@@ -189,15 +189,18 @@ a:active {
         position: fixed;
     }
     .homeMenu{
-        font-size: 9.5px;
+        font-size: 18px;
         margin-right: 40px;
+    }
+    a{
+        font-size: 130%;
     }
     .loginDiv{
         display: none;
     }
-    #navLogo{
+    /* #navLogo{
         display: none;
-    }
+    } */
     h1{
         font-size: 12px;
         text-align: center;
@@ -221,3 +224,13 @@ a:active {
         font-size: 8px;
     }
 }
+/* 
+@media (max-width: 768px){
+h1{
+    font-size: 35px;
+    font-weight: 900px;
+}    .homeMenu{
+    font-size: 22px;
+    margin-right: 160px;
+}
+} */

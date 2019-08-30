@@ -178,8 +178,11 @@ a:active {
         position: fixed;
     }
     .homeMenu{
-        font-size: 9.5px;
+        font-size: 18px;
         margin-right: 40px;
+    }
+    a{
+        font-size: 130%;
     }
     .loginDiv{
         display: none;
@@ -236,3 +239,67 @@ a:active {
         font-family: 'Montserrat', sans-serif;
     }
 }
+/* @media (min-width: 768px){
+    .footer-company-motto{
+        font-size: 20px;
+    }
+    .footlogoDiv{
+        align-content: center;
+        margin-left: 30px;
+    }
+    .footer-company-name{
+        font-size: 20px;
+        margin-bottom: 0%;
+    }
+    .footer-links{
+        font-size: 24px;
+    }
+
+h2{
+    font-size: 25px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+h3{
+    font-size: 18px;
+
+}
+h4{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 20px;
+    text-align: center;
+}
+#partnerImg{
+    height: 90px;
+    width: 90px;
+    align-content: center;
+    margin: 40px;
+}
+.partner-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: #002e4e solid 1px;
+    margin: 0px 10px 5px 10px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+.partners{
+    background: aliceblue;
+    grid-area: bot;
+    padding-bottom: 5px;
+}
+.box{
+    margin-top: 4px;
+    background: none;
+    border: solid 2px whitesmoke;
+    height: 6.5px;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+span{
+    font-size: 25px;
+}
+
+} */
