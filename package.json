@@ -4,7 +4,7 @@
   "description": "Final Project for Northwestern Coding Bootcamp showcasing everything I've learned this summer.",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "body-parser": "^1.19.0"
   },
   "devDependencies": {},
